@@ -1,9 +1,10 @@
 import random
-import time
 import pyttsx3
 import keyboard
 
 engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[1].id)
 
 print("Starting Text_To_Speech dot dot dot")
 engine.say("Starting Text To Speech program. Press spacebar to continue")
@@ -22,7 +23,7 @@ while len(done_read_sentences) < len(lines):
         if question_counter == 10:
             engine.say("Ten questions completed")
             engine.runAndWait()
-        sentence_split = random_line.split('.')
+        sentence_split = random_line.split('|')
         question = sentence_split[0]
         answer = sentence_split[1]
         keyboard.wait('space')
