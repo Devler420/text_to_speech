@@ -35,7 +35,7 @@ Six times fourteen minus nine | 75
 Fourteen plus sixty eight minus twenty three | 59
 Thirteen multiplied by nineteen | 247
 Seventeen times twelve minus eight | 196
-Spell "ROYAL ORCHID" backward | HICDRO YALOYR
+Spell "ROYAL ORCHID" backward | LAYOR DIHCRO 
 Twenty four minutes to eleven plus one hundred and thirty seven minutes | 13:13
 One hundred and nine minutes plus seventeen minutes pass six | 8:26
 Twenty one minutes to seven minus ninety seven minutes | 4:22
@@ -72,7 +72,7 @@ Twelve minutes to ten minus eighty eight minutes | 18:32
 Thirty five plus seventeen | 52
 Eleven times fiftyseven | 627
 Twenty two minutes pass eleven plus one hundred and thirty nine minutes | 2:01 AM
-The aircraft is flying at 50,000 ft. above sea level, you drive it 250 ft./sec. How much time when you reach the ground? | 200 seconds
+The aircraft is flying at 50,000 feets above sea level, you drive it 250 feets per second. How much time when you reach the ground? | 200 seconds
 Now you are facing to the north, later you turn to your right, then you turn to your right again, then you turn to the opposite of the east. Which direction are you facing to? | West
 One hundred and nineteen minutes minus twenty nine minutes pass twenty four o'clock | 18:50
 One hundred and forty eight minutes minus a quarter pass one o'clock | 12:23
@@ -81,7 +81,7 @@ Ninety nine multiplied by seventy eight | 7722
 One hundred and nine minutes plus sixteen minutes to nine minus one hundred and thirty eight | 19:47
 Twentynine minutes pass five subtract one hundred and one plus eightyseven minutes | 18:25
 Spell "THAILAND" and "ENGINEER" backward | DNALIAHT REENIGNE
-Aircraft is flying at 27,000 ft./mins. Drive Aircraft at 600 ft./sec. How much time will Aircraft reach the ground? | 45 minutes
+Aircraft is flying at 27,000 feets per mins. Drive Aircraft at 600 feets per second. How much time will Aircraft reach the ground? | 45 minutes
 Eleven times ninetyeight | 1078
 Nineteen times eighteen | 342
 Twenty five times forty four | 1100
