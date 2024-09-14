@@ -12,11 +12,11 @@ engine.setProperty('voice', voices[1].id)
 newVoiceRate = 130
 engine.setProperty('rate', newVoiceRate)
 
-print("Starting Text_To_Speech dot dot dot")
-engine.say("Starting Text To Speech program. Press spacebar to continue")
-engine.runAndWait()
+# print("Starting Text_To_Speech dot dot dot")
+# engine.say("Starting Text To Speech program. Press spacebar to continue")
+# engine.runAndWait()
 
-with open("text_to_read.txt", "r") as file:
+with open("debug_text.txt", "r") as file:
     lines = file.readlines()
     print("Total Sentences: " + str(len(lines)))
 
