@@ -30,7 +30,7 @@ while len(done_read_sentences) < len(lines):
     random_line = random.choice(lines)
     if random_line not in done_read_sentences:
         if question_counter == 10:
-            engine.say("Ten questions completed")
+            engine.say("Question Number 10")
             engine.runAndWait()
         sentence_split = random_line.split('|')
         question = sentence_split[0]
