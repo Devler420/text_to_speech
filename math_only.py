@@ -12,11 +12,11 @@ engine.setProperty('voice', voices[1].id)
 newVoiceRate = 150
 engine.setProperty('rate', newVoiceRate)
 
-print("Starting Text_To_Speech dot dot dot")
-engine.say("Starting Text To Speech program.")
+print("Starting Math dot dot dot")
+engine.say("Starting Math program.")
 engine.runAndWait()
 
-with open("text_to_read.txt", "r") as file:
+with open("math_only.txt", "r") as file:
     lines = file.readlines()
     print("Total Sentences: " + str(len(lines)))
 
@@ -32,22 +32,25 @@ while len(done_read_sentences) < len(lines):
         if question_counter == 10:
             engine.say("Ten questions completed")
             engine.runAndWait()
-        sentence_split = random_line.split('|')
-        question = sentence_split[0]
-        answer = sentence_split[1].strip()
+        sentence_split = random_line.split('times')
+        print("Splitted: " + sentence_split[0] + sentence_split[1])
+        question = random_line
+        first_num = sentence_split[0].strip()
+        second_num = sentence_split[1].strip()
+        answer = int(first_num) * int(second_num)
         keyboard.wait('space')
         done_read_sentences.add(random_line)
         engine.say(question)
         print("Question " + str(question_counter) + ": "  + question)
         engine.runAndWait()
         keyboard.wait('space')
-        engine.say(answer)
-        print("Answer: " + answer)
+        engine.say(str(answer))
+        print("Answer: " + str(answer))
         engine.runAndWait()
         question_counter += 1
         print("")
         # time.sleep(5)
 
-engine.say("Ending Text To Speech program")
+engine.say("Ending Math program")
 engine.runAndWait()
-print("Ending Text_To_Speech")
+print("Ending Math")
