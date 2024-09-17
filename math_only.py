@@ -33,8 +33,7 @@ while len(done_read_sentences) < len(lines):
             engine.say("Ten questions completed")
             engine.runAndWait()
         sentence_split = random_line.split('times')
-        print("Splitted: " + sentence_split[0] + sentence_split[1])
-        question = random_line
+        question = random_line.strip()
         first_num = sentence_split[0].strip()
         second_num = sentence_split[1].strip()
         answer = int(first_num) * int(second_num)
