@@ -11,7 +11,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 # voice speed -- Default 200 wpm
-newVoiceRate = 140
+newVoiceRate = 130
 volume = 0.75
 engine.setProperty('volume', volume)
 engine.setProperty('rate', newVoiceRate)
