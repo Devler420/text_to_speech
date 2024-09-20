@@ -10,6 +10,8 @@ engine.setProperty('voice', voices[1].id)
 
 # voice speed -- Default 200 wpm
 newVoiceRate = 150
+volume = 0.75
+engine.setProperty('volume', volume)
 engine.setProperty('rate', newVoiceRate)
 
 print("Starting Math dot dot dot")
