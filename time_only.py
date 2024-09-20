@@ -17,8 +17,15 @@ volume = 0.75
 engine.setProperty('volume', volume)
 engine.setProperty('rate', newVoiceRate)
 
-print("Starting Text_To_Speech dot dot dot")
+instruction_set = ["rectangle", "circle", "triangle","red", "blue", "yellow", "none"]
+random_instruction_left = "Left hand: " + random.choice(instruction_set)
+random_instruction_right = "Right hand: " + random.choice(instruction_set)
+print(random_instruction_left + " | " + random_instruction_right + "\n")
+
+print("Starting Time dot dot dot")
 engine.say("Starting Time program.")
+engine.runAndWait()
+engine.say(random_instruction_left + " " + random_instruction_right)
 engine.runAndWait()
 
 def calculate_time(question):
@@ -34,7 +41,7 @@ def calculate_time(question):
         raise ValueError("Invalid operation")
     return result
 
-with open("debug_text.txt", "r") as file:
+with open("time_only.txt", "r") as file:
     lines = file.readlines()
     print("Total Sentences: " + str(len(lines)))
 

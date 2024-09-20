@@ -16,8 +16,15 @@ volume = 0.75
 engine.setProperty('volume', volume)
 engine.setProperty('rate', newVoiceRate)
 
+instruction_set = ["rectangle", "circle", "triangle","red", "blue", "yellow", "none"]
+random_instruction_left = "Left hand: " + random.choice(instruction_set)
+random_instruction_right = "Right hand: " + random.choice(instruction_set)
+print(random_instruction_left + " | " + random_instruction_right + "\n")
+
 print("Starting Text_To_Speech dot dot dot")
 engine.say("Starting Text To Speech program.")
+engine.runAndWait()
+engine.say(random_instruction_left + " " + random_instruction_right)
 engine.runAndWait()
 
 with open("text_to_read.txt", "r") as file:
@@ -63,7 +70,7 @@ while len(done_read_sentences) < len(lines):
         print(f"Time Avg: {avg:.2f} seconds")
 
         engine.runAndWait()
-        
+
         question_counter += 1
         print("")
         # time.sleep(5)

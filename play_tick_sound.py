@@ -10,6 +10,6 @@ def play_tick(bpm, sound_file, volume = 1):
   time.sleep(duration)
 
 while True:
-  bpm = random.randint(30, 120)
+  bpm = random.randint(45, 120)
   sound_file = "tick_sound.wav"
   play_tick(bpm, sound_file)

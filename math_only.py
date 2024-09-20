@@ -16,8 +16,15 @@ volume = 0.75
 engine.setProperty('volume', volume)
 engine.setProperty('rate', newVoiceRate)
 
+instruction_set = ["rectangle", "circle", "triangle","red", "blue", "yellow", "none"]
+random_instruction_left = "Left hand: " + random.choice(instruction_set)
+random_instruction_right = "Right hand: " + random.choice(instruction_set)
+print(random_instruction_left + " | " + random_instruction_right + "\n")
+
 print("Starting Math dot dot dot")
 engine.say("Starting Math program.")
+engine.runAndWait()
+engine.say(random_instruction_left + " " + random_instruction_right)
 engine.runAndWait()
 
 with open("math_only.txt", "r") as file:
