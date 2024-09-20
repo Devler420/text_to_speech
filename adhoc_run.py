@@ -10,7 +10,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 # voice speed -- Default 200 wpm
-newVoiceRate = 150
+newVoiceRate = 130
 engine.setProperty('rate', newVoiceRate)
 
 print("Starting Text_To_Speech dot dot dot")
