@@ -1,6 +1,8 @@
 import random
 import pyttsx3
 import keyboard
+import time
+import math
 
 engine = pyttsx3.init()
 
@@ -23,6 +25,7 @@ with open("math_only.txt", "r") as file:
     print("Total Sentences: " + str(len(lines)))
 
 done_read_sentences = set()
+time_used_set = set()
 
 question_counter = 1
 while len(done_read_sentences) < len(lines):
@@ -44,9 +47,23 @@ while len(done_read_sentences) < len(lines):
         engine.say(question)
         print("Question " + str(question_counter) + ": "  + question)
         engine.runAndWait()
+
+        start_time = time.time()
+
         keyboard.wait('space')
         engine.say(str(answer))
         print("Answer: " + str(answer))
+
+        end_time = time.time()
+        elasped_time = end_time - start_time
+        time_used_set.add(elasped_time)
+        print(f"Time Used: {elasped_time:.2f} seconds")
+
+        total_time = math.fsum(time_used_set)
+        total_answered = len(time_used_set)
+        avg = total_time/total_answered
+        print(f"Time Avg: {avg:.2f} seconds")
+
         engine.runAndWait()
         question_counter += 1
         print("")

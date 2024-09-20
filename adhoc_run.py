@@ -2,6 +2,8 @@ import random
 import pyttsx3
 import keyboard
 from datetime import timedelta
+import time
+import math
 
 engine = pyttsx3.init()
 
@@ -37,6 +39,7 @@ with open("debug_text.txt", "r") as file:
     print("Total Sentences: " + str(len(lines)))
 
 done_read_sentences = set()
+time_used_set = set()
 
 question_counter = 1
 while len(done_read_sentences) < len(lines):
@@ -46,12 +49,15 @@ while len(done_read_sentences) < len(lines):
             engine.say("Question Number 10")
             engine.runAndWait()
 
-        question = random_line
+        question = random_line.strip()
         keyboard.wait('space')
         done_read_sentences.add(random_line)
         engine.say(question)
         print("Question " + str(question_counter) + ": "  + question)
         engine.runAndWait()
+
+        start_time = time.time()
+
         keyboard.wait('space')
         try:
             result = calculate_time(question)
@@ -70,6 +76,17 @@ while len(done_read_sentences) < len(lines):
 
             engine.say(f"{hours}:{minutes}")
             print(f"Answer: {hours}:{minutes}")
+
+            end_time = time.time()
+            elasped_time = end_time - start_time
+            time_used_set.add(elasped_time)
+            print(f"Time Used: {elasped_time:.2f} seconds")
+
+            total_time = math.fsum(time_used_set)
+            total_answered = len(time_used_set)
+            avg = total_time/total_answered
+            print(f"Time Avg: {avg:.2f} seconds")
+
         except ValueError:
             engine.say("Question Invalid")
             print("Invalid question format")
