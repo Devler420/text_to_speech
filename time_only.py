@@ -17,15 +17,25 @@ volume = 0.9
 engine.setProperty('volume', volume)
 engine.setProperty('rate', newVoiceRate)
 
-instruction_set = ["rectangle", "circle", "triangle","red", "blue", "yellow", "none"]
+instruction_set = ["rectangle.", "circle.", "triangle.", "red.", "blue.", "yellow.", "none."]
 random_instruction_left = "Left hand: " + random.choice(instruction_set)
 random_instruction_right = "Right hand: " + random.choice(instruction_set)
-print(random_instruction_left + " | " + random_instruction_right + "\n")
+
+random_hand = random.randint(1,3)
+if random_hand == 1:
+    tgt_flag = "Left Then Right."
+elif random_hand == 2:
+    tgt_flag = "Right Then Left."
+else:
+    tgt_flag = "Together."
+
+instruction = random_instruction_left + " | " + random_instruction_right + " | " + tgt_flag + "\n"
+print(instruction)
 
 print("Starting Time dot dot dot")
 engine.say("Starting Time program.")
 engine.runAndWait()
-engine.say(random_instruction_left + " " + random_instruction_right)
+engine.say(instruction)
 engine.runAndWait()
 
 def calculate_time(question):
