@@ -60,7 +60,6 @@ Eleven minutes to four o'clock plus one hundred and eleven minutes | 5:40
 Seven plus fifteen minus nine | 13
 Eleven multiplied by seventeen minus eight | 179
 Twenty-five times thirty-four | 850
-Thirty-four divided by six | 5.67
 Twenty-three times ninety-eight | 2254
 Fourteen times thirty-three | 462
 Eight times sixteen divided by three | 42.67
@@ -76,7 +75,6 @@ The aircraft is flying at 50,000 feets above sea level, you drive it 250 feets p
 Now you are facing to the north, later you turn to your right, then you turn to your right again, then you turn to the opposite of the east. Which direction are you facing to? | West
 One hundred and nineteen minutes minus twenty-nine minutes pass twenty-four o'clock | 22:30
 One hundred and forty-eight minutes minus a quarter pass one o'clock | 22:47
-Fourteen times seventeen divided by three | 79.33
 Ninety-nine multiplied by seventy-eight | 7722
 One hundred and nine minutes plus sixteen minutes to nine minus one hundred and thirty-eight | 08:25
 Twenty-nine minutes pass five subtract one hundred and one plus eighty-seven minutes | 05:15
@@ -94,7 +92,6 @@ The square of sixty-eight | 4624
 Spell the second month of the year backward | Y R A U R B E F February
 Now you're facing to the east. Please turn to the opposite and turn right two times. Which direction are you facing to? | East
 Spell the capital of Japan backward | O Y K O T
-Eleven times fourteen divided by twenty | 7.7
 Eight hundred and fifty-five divided by fifteen | 57
 Spell the capital of China and read. | B E I J I N G BEIJING
 What do we call the people who live in Peking? | Chinese
@@ -108,6 +105,11 @@ Convert 1 kilometer to knot | 1 kilometer is equal to 0.54 knot
 What is the maximum flight level of commercial aircraft? | 45,000 feets
 Spell "Australia" backward | A I L A R T S U A Australia
 Spell your Citizen Identification Number backward | Identification Number Backward
+Now you're facing North. Turn 45 degree left. Turn 135 degree right. What direction are you facing? | East 90 degree.
+You're facing West. Turn right 45 degrees, then turn left 135 degrees. What direction are you facing? | SouthWest 225 degree.
+You're facing North. Turn left 90 degrees, then turn right 45 degrees. What direction are you facing? | NorthWest 315 degree.
+You're facing South. Turn left 135 degrees, then turn right 45 degrees. What direction are you facing? | West 270 degree.
+You're facing East. Turn right 135 degrees, then turn left 45 degrees. What direction are you facing? | South 180 degree.
 47 times 56
 12 times 35
 23 times 42
