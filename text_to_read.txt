@@ -98,6 +98,16 @@ Eleven times fourteen divided by twenty | 7.7
 Eight hundred and fifty-five divided by fifteen | 57
 Spell the capital of China and read. | B E I J I N G BEIJING
 What do we call the people who live in Peking? | Chinese
+Convert 1 mile to kilometer | 1 mile is equal to 1.6 kilometer
+Convert 1 kilometer to mile | 1 kilometer is equal to 0.6 mile
+Convert 1 nautical mile to kilometer | 1 nautical mile is equal to 1.85 kilometer
+Convert 1 knot to kilometer | 1 knot is equal to 1.85 kilometer
+Convert 10 feets to meters | 10 feets is equal to 3 meters
+Convert 1 meter to feet | 1 meter is equal to 3.3 feets
+Convert 1 kilometer to knot | 1 kilometer is equal to 0.54 knot
+What is the maximum flight level of commercial aircraft? | 45,000 feets
+Spell "Australia" backward | A I L A R T S U A Australia
+Spell your Citizen Identification Number backward | Identification Number Backward
 47 times 56
 12 times 35
 23 times 42
