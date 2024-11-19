@@ -140,6 +140,7 @@ def calculate_time(question):
     elif operation == "minus":
         result = timedelta(hours=int(times[0].split(":")[0]), minutes=int(times[0].split(":")[1])) - timedelta(hours=int(times[1].split(":")[0]), minutes=int(times[1].split(":")[1]))
     else:
+        print("[ERROR] Invalid operation at question number: " + question_counter)
         raise ValueError("Invalid operation")
     return result
 
