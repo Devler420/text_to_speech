@@ -110,8 +110,8 @@ You're facing West. Turn right 45 degrees, then turn left 135 degrees. What dire
 You're facing North. Turn left 90 degrees, then turn right 45 degrees. What direction are you facing? | NorthWest 315 degree.
 You're facing South. Turn left 135 degrees, then turn right 45 degrees. What direction are you facing? | West 270 degree.
 You're facing East. Turn right 135 degrees, then turn left 45 degrees. What direction are you facing? | South 180 degree.
-Your aircraft is flying at 41000 feets. You are descending at 700 feets per second. Read your altitude at each second until you are below 36000 feets. | Should read out 8 times
-Your aircraft is flying at 37000 feets. You are descending at 400 feets per second. Read your altitude at each second until you are below 30000 feets. | Should read out 12 times
+Your aircraft is flying at 41000 feets. You are descending at 700 feets per second. Read your altitude at each second until you are below 36000 feets. | Final altitude is 35400 feets.
+Your aircraft is flying at 37000 feets. You are descending at 400 feets per second. Read your altitude at each second until you are below 30000 feets. | Final altitude is 29800 feets.
 47 times 56
 12 times 35
 23 times 42
