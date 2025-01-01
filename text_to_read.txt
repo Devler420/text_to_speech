@@ -108,7 +108,7 @@ Spell your Citizen Identification Number backward | Identification Number Backwa
 Now you're facing North. Turn 45 degree left. Turn 135 degree right. What direction are you facing? | East 90 degree.
 You're facing West. Turn right 45 degrees, then turn left 135 degrees. What direction are you facing? | SouthWest 225 degree.
 You're facing North. Turn left 90 degrees, then turn right 45 degrees. What direction are you facing? | NorthWest 315 degree.
-You're facing South. Turn left 135 degrees, then turn right 45 degrees. What direction are you facing? | West 270 degree.
+You're facing South. Turn left 135 degrees, then turn right 45 degrees. What direction are you facing? | East 90 degree.
 You're facing East. Turn right 135 degrees, then turn left 45 degrees. What direction are you facing? | South 180 degree.
 Your aircraft is flying at 41000 feets. You are descending at 700 feets per second. Read your altitude at each second until you are below 36000 feets. | Final altitude is 35400 feets.
 Your aircraft is flying at 37000 feets. You are descending at 400 feets per second. Read your altitude at each second until you are below 30000 feets. | Final altitude is 29800 feets.
